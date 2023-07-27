@@ -29,16 +29,31 @@
     text-decoration: #5020c9;
 }
 .submit{
-    /* Targeting the submit button using the input[type="submit"] selector */
-    /* Your styling properties go here */
-    background-color: #007bff; /* Blue background color */
-    color: #fff; /* Text color */
-    padding: 10px 20px; /* Padding around the text */
-    border: none; /* Removing default border */
-    border-radius: 5px; /* Rounded corners */
-    cursor: pointer; 
-    background-color: #0056b3; 
-    align-self: center;
-    column-span: 10;
+    background-color: #3227b0;
+    border: 2px solid #5020c9;
+    border-radius: 15%;
+    padding: 15px;
+    color: #cecce3;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100;
+    text-align: center;
 
+}
+.mypic{
+    border: 2px #454449;
+    border-radius: 50%;
+    padding: 10px 10px;
+    background-color: #4e4646;
+    color: #3227b0;
+    font-family: #3227b0;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    margin-left: 50px;
+}
+.tr{
+    width: 100%;
+    text-align: center;
+    border: #333;
 }
