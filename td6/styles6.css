@@ -1,0 +1,44 @@
+.body{
+    background-color: blue;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.div{
+    background-color:aliceblue;
+    border-radius: 10px;
+    text-align: center;
+    width: min-content;
+    height: 400px;
+}
+.tr{
+    width: 100%;
+    text-align: center;
+    border: #333;
+}
+.b1{
+    border: 2px solid #505050;
+    border-radius: 50%;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    color: #333;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: #5020c9;
+}
+.submit{
+    /* Targeting the submit button using the input[type="submit"] selector */
+    /* Your styling properties go here */
+    background-color: #007bff; /* Blue background color */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Padding around the text */
+    border: none; /* Removing default border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; 
+    background-color: #0056b3; 
+    align-self: center;
+    column-span: 10;
+
+}
